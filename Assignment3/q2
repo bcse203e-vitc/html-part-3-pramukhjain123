@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title> Multi-Level Organization Chart</title>
+</head>
+<body>
+    <table border="3" cellspacing="2" cellpading="5">
+    <tr>
+    <th>Department Name</th>
+    <th >Manager</th>
+    <th>Number of Employees</th>
+    <th>Department Budget</th>
+    <th>% of total budget</th>
+    </tr>
+    <tr>
+        <th rowspan="3">HR </th>
+        <th>pramukh </th>
+        <th>15</th>
+        <th rowspan="3">3 cr</th>
+        <th rowspan="3">30%</th>
+    </tr>
+    <tr>
+        <th>Ashish</th>
+        <th>16</th>
+    </tr>
+    <tr>
+        <th>prakhar</th>
+        <th>17</th>
+    </tr>
+    <tr>
+        <th rowspan="2">Engineering</th>
+        <th>ayush</th>
+        <th>20</th>
+        <th rowspan="2">4 cr</th>
+        <th rowspan="2">40%</th>
+    </tr>
+    <tr>
+        <th>raghav</th>
+        <th>21</th>
+    </tr>
+    <tr>
+        <th>Marketing</th>
+        <th>Aditya</th>
+        <th>10</th>
+        <th>3 cr</th>
+        <th>30%</th>
+    </tr>
+    </table>
+</body>
+</html>
+
